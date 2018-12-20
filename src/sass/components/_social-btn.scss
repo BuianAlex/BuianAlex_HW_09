@@ -1,0 +1,42 @@
+.social-btn{
+    display: flex;
+    justify-content: center;   
+    a{
+        color: #fff;
+        width: 24px;
+        height: 24px;
+        background-color: #313233;
+        border-radius: 50%;
+        line-height: 24px;
+        margin: 0 5px;
+        &:hover{
+            transition-property: background-color, color;
+            transition-duration: .8s;
+        }
+        &:hover.btn-tw{
+            background-color: #1da1f2;//tw
+        }
+        &:hover.btn-fb{
+            background-color: #3B5998;//fb
+        }
+        &:hover.btn-gpluse{
+            background-color: #db4a39;//google+
+        }
+        &:hover.btn-behan{
+            background-color: #053eff; //behance
+        }
+        &:hover.btn-drib{
+            background-color: #ea4c89; //dribbble
+        }
+        &:hover.btn-linkid{
+            background-color: #0077B5;//linkidin
+        }
+        &:hover.btn-vimeo{
+            background-color: #1ab7ea;//vimeo
+        }
+        &:hover.btn-envelope{
+            background-color: #db4a39;//vimeo
+        }
+    }
+
+}

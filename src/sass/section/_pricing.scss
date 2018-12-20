@@ -1,0 +1,17 @@
+.type-subscription{
+    li{
+        display: table-cell;
+        border: 1px solid #29323c;
+        border-collapse: collapse;
+        text-align: center;
+        cursor: pointer;
+        &:hover{
+
+            background-color: aqua;
+        }
+    }
+}
+.top-conteiner{
+    padding: 1rem 0;
+    border-bottom: 1px solid #29323c;
+}
