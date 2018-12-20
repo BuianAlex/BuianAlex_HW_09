@@ -9,7 +9,7 @@
 @media (min-width: 576px) { 
   .col4-flex{
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: stretch;
     
@@ -20,9 +20,16 @@
 }
 @media (min-width: 992px) {
   .col4-flex{
-    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    li{
+      width:33.333%;
+    }
+  }   
+}
+@media (min-width: 1200px) {
+  .col4-flex{
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: stretch;
     li{
       width: 25%;
