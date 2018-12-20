@@ -1,0 +1,24 @@
+$color-undeline: #f2f2f2;
+.effect-underline{
+  position: relative;
+  transform: perspective(1px) translateZ(0);
+}
+    
+a.effect-underline:after {
+	content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: -5px;
+    background: $color-undeline;
+    //height: 3px;
+    transition-property: left, right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+a.effect-underline:hover:after {
+  left: 0;
+  right: 0;
+}

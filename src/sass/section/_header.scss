@@ -1,0 +1,27 @@
+
+.main-header{
+  display: flex;
+  @extend %flex-jst-btw;
+  &__logo{
+    h1{
+      text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.5);
+      color: #e8e8e8;
+      font-family: 'Airbag';
+      font-size: 3rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 48px;
+      align-self: center;
+      /* Text style for "Z, ET" */
+     //letter-spacing: -1.2px;
+      height: 48px;
+    }
+  } 
+  &__burger-label{
+    color: #e8e8e8;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "M, ENU" */
+  }   
+}

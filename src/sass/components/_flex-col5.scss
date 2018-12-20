@@ -1,0 +1,25 @@
+.col5-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  li{
+    width: 50%;
+  }
+}
+@media (min-width: 576px) { 
+  .col5-flex{ 
+    li{
+      width: 33.333%;
+    }
+  }   
+}
+@media (min-width: 992px) {
+  .col5-flex{
+    justify-content: space-between;
+
+    li{
+      width: 20%;
+    }
+  }   
+}

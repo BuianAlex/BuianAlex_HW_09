@@ -1,0 +1,27 @@
+.header-section{
+  text-align: center;
+  h2{
+    color: #29323c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.65px;
+  }
+  p{
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.8;
+    color: #29323c;
+    font-family: "Open Sans";
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  hr{
+    width: 5%;
+    border: 1px solid #29323c;
+    background-color: #29323c;
+    opacity: 0.8;
+  }
+}
