@@ -817,12 +817,10 @@ a.effect-underline:hover:after {
 .team-members {
   margin-top: 8vh; }
   .team-members li {
-    background-color: rgba(242, 242, 242, 0.75);
     max-width: 270px;
     margin-bottom: 2rem;
     text-align: center;
-    color: #29323c;
-    position: relative; }
+    color: #29323c; }
   .team-members img {
     width: 100%;
     height: auto; }
@@ -836,5 +834,42 @@ a.effect-underline:hover:after {
     font-weight: 400;
     line-height: 20px; }
 
+.img-conteiner {
+  width: 270px;
+  height: 270px;
+  position: relative; }
+
 .bottom-conteiner {
+  background-color: rgba(242, 242, 242, 0.75);
   padding: 1rem; }
+
+.social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .social a {
+    width: 41px;
+    height: 41px;
+    color: #fff;
+    border: 3px solid #ffffff;
+    margin: 0 0.5rem;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    line-height: 40px;
+    -webkit-transition-duration: 0.3s;
+         -o-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform; }
+    .social a:hover .fab {
+      -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+              transform: scale(1.2); }
