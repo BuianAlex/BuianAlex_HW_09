@@ -1,6 +1,6 @@
 .company-logos{
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     background-color: #f5f5f5;
     ul{
       display: flex;
@@ -9,10 +9,10 @@
     }
     li{
       width: 20%;
-
+      text-align: center;
     }
     img{
-      width: 100%;
+      width: 70%;
       height: auto;
       vertical-align: middle;
     }

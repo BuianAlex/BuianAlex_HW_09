@@ -86,21 +86,4 @@
 .bottom-conteiner{background-color: rgba(242, 242, 242, 0.75);
   padding: 1rem;
 }
-.social{
-  display: flex;
-  justify-content: center;
-  a{
-    width: 41px;
-    height: 41px;
-    color: #fff;
-    border: 3px solid #ffffff;
-    margin: 0 0.5rem;
-    border-radius: 50%;
-    line-height: 40px;
-    transition-duration: 0.3s;
-    transition-property: transform;
-    &:hover .fab{
-      transform: scale(1.2);
-    }
-  }
-} 
+

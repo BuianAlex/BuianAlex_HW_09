@@ -1,0 +1,16 @@
+.col2-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &_item{
+    width: 100%;
+  }
+}
+@media (min-width: 768px) { 
+  .col2-flex{ 
+    flex-direction: row;
+    &_item{
+      width: 50%;
+    }
+  }   
+}
