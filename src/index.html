@@ -16,7 +16,7 @@
   <header class="conteiner main-header">
     <a href="/" class="main-header__logo"><h1 >ZET</h1></a>
     <div class="main-nav">
-      <div class="burger-wraper" id='burger'><span class="burger-label main-header__burger-label">MENU</span> <span class="burger"></span></div>
+      <div class="burger-wraper" id='burger'><span class="burger-label main-header__burger-label">MENU</span> <button class="burger"></button></div>
       <nav id="main-nav" class="nav-modal" >
         <ul>
           <li>
@@ -442,9 +442,9 @@
           </li>
     </ul>
   </section>
-  <section class="contact col2-flex" id="contact">
+  <div class="contact col2-flex" id="contact">
       <iframe class="col2-flex_item google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5188.255441800851!2d32.059664!3d49.444303000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b865bc90311%3A0xe2944dabbe35bc99!2sCherkasy%2C+Cherkasy+Oblast%2C+Ukraine%2C+18000!5e0!3m2!1sen!2sus!4v1545341357493"
-      width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+      width="800" height="600"  style="border:0" allowfullscreen></iframe>
     <div class="col2-flex_item contact-form-wraper">
       <form action="#" method="POST" class="contact-form">
         <p><label>Name<input type="text" name="name" placeholder="" /></label></p>
@@ -454,21 +454,18 @@
         <button type="submit">Submit</button>
       </form>
     </div>
-  </section>
+  </div>
   <footer>
     <div class="conteiner">
-     <div>
        <a href="/" class="footer__logo">
-          <h1>ZET</h1>
+          ZET
         </a>
-       
-     </div>
        <span class="copyright">© Copyright 2015. Allright Reserved</span>  
       
       
       
       <div class="social-btn footer-social-btn">
-        <span>Stay In Touch</span>
+        <p class="social-btn-header">Stay In Touch</p>
         <a href="#" class="btn-tw"><i class="fab fa-twitter fa-xs"></i></a>
         <a href="#" class="btn-fb"><i class="fab fa-facebook-f fa-xs"></i></a>
         <a href="#" class="btn-drib"><i class="fab fa-dribbble fa-xs"></i></a>

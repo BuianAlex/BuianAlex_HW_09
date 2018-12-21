@@ -13,14 +13,18 @@ $bgc: #29323c;
 }
 .burger-label{
   margin-right: 1.125rem; 
+  z-index: 999;
 }    
 .burger {
   top:44%;
   left: 3px;
   width: 22px;
-  height: 3px;
+  height: 3px; 
   position: relative;
   z-index: 999;
+  cursor: pointer;
+  outline: none;
+  border: none;
   opacity: $burger-opacity;
   background-color: $burger-color; 
   transition-property: opacity;
@@ -101,18 +105,10 @@ $bgc: #29323c;
 
 
 
-@media (min-width: 576px) {  }
-
+@media (min-width: 576px) { }
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-
-}  
-
- 
-
-
+@media (min-width: 768px) {}  
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { }
-
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { }

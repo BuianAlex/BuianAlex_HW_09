@@ -31,7 +31,14 @@ document.querySelector('.burger-wraper').addEventListener('click', function () {
 });
 
 function toggleNav() {
-  document.querySelector('.burger').classList.toggle('burger-active');
+  let burger = document.querySelector('.burger');
+  burger.classList.toggle('burger-active');
+  if(burger.classList.contains('burger-active')){
+    document.querySelector('.burger-label').innerHTML='close';
+  }
+  else{
+    document.querySelector('.burger-label').innerHTML='menu';
+  }
   var x = document.getElementById("main-nav");
 
   document.getElementById('main-nav').classList.toggle('show');

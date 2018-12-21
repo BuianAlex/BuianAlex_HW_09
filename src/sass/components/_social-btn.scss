@@ -1,6 +1,10 @@
 .social-btn{
     display: flex;
-    justify-content: center;   
+    justify-content: center;
+    position: relative;
+    .social-btn-header{
+        position: absolute;
+    }   
     a{
         color: #fff;
         width: 24px;
